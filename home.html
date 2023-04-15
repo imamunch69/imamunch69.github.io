@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Home</title>
+   <style>
+    body{
+      background: Black;
+      color: white;
+    }
+   </style>
+     <link rel="shortcut icon" href="cod1.jpeg">
+     <link rel="stylesheet" href="style.css">
+     <script>
+      function validate(){
+        var username = document.signup.uname.value;
+        var name = document.signup.name.value;
+        var dateofbirth = document.signup.dob.value;
+        var password = document.signup.pwd.value;
+        if(username==""||name==""||dateofbirth==""||password=="")
+        {
+          alert("Fill all the fields")
+        }
+        else{
+          alert("Form submitted successfully")
+        }
+        }
+     </script>
+ </head>
+ <body>
+   <header>
+     <div class="heading">
+       <h1>Black ops 2.wiki</h1>
+     </div>
+     <ul class = "nav-bar">
+       <li><a href="home.html" class="active">Home</a></li>
+       <li><a href="campaign.html">Campaign</a></li>
+       <li><a href="multiplayer.html">Multiplayer</a></li>
+       <li><a href="zombies.html">Zombies</a></li>
+     </ul>
+   </header>
+     <div class = "content">
+       <form name="signup">
+         <fieldset>
+           <legend>Sign up</legend>
+        <table>
+        <tr>
+          <td><label>Username:</label></td>
+          <td><input type="text" name="uname"><br/></td>
+        </tr>
+        <tr>
+          <td><label>Name:</Label></td>
+          <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+          <td><label>DOB:</label></td>
+          <td><input type:"date" name="dob"</td>
+        </tr>
+        <tr>
+          <td><label>Password:</label></td>
+          <td><input type:"password" name="pwd"></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center"><input type="button" value="submit" onclick="validate();"></td>
+        </tr>
+        </table>
+        <fieldset>
+       </form>
+     </div>
+     <div class="content8">
+      <form name="About">
+       <fieldset>
+         <legend><h2><b>About</b></h2><legend>
+         <legend><h1><b>Black Ops 2</b></h1><legend>
+       <table>
+       <tr>
+        <p>
+          Black Ops 2 is a military first person shooter that was<br/>
+          released in November 2012. It was created by treyarch  <br/>
+          and published by Activision. It was a sequel to Black  <br/>
+          Ops 1, which came out November 9, 2010, and the black  <br/>
+          series continues to this day
+        </p>
+       </tr>
+        <tr>
+          <td><img src="cod1.jpeg" width="200" height="200"></td>
+          <td><img src="Unknown-6.jpeg" width="200" height="200"></td>
+        </tr>
+        <tr>
+          <td><img src="Unknown.jpeg" width="200" height="200"></td>
+          <td><img src="images-1.jpeg" width="200" height="200"></td>
+        </tr>
+        <tr>
+          <td><img src="Unknown-1.jpeg" width="200" height="200"></td>
+          <td><img src="Unknown-5.jpeg" width="200" height="200"></td>
+        </tr>
+       </table>
+     </fieldset>
+   </form>
+ </div>
+     <footer>
+       &copy;Josue Landaverde Miguel Tovar
+     </footer>
+ </body>
+</html>

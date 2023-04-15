@@ -1,0 +1,147 @@
+*
+{
+  margin:0px;
+  padding:0px;
+}
+
+header{
+  width:100%;
+  padding-top: 20px;
+  background-color: black;
+  font-family: 'Arial', Arial;
+}
+.heading{
+  color:white;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 3px;
+  font-family: 'Arial', Arial;
+}
+
+.heading h1{
+  text-align: center;
+}
+.nav-bar{
+  display:flex;
+  justify-content: space-around;
+  list-style:none;
+  background-color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Arial', Arial;
+}
+.nav-bar a{
+  color:black;
+  font-size: 15px;
+  font-family: 'Arial', Arial;
+}
+.nav-bar .active{
+  color:black;
+  font-family: 'Arial', Arial;
+}
+a:link{
+  text-decoration:: none;
+}
+a:visited{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  text-decoration: none;
+}
+footer
+{ color: white;
+  text-align: center;
+  background-color: black;
+  font-size: 15px;
+  bottom: 0;
+  position: fixed;
+  width: 100%
+}
+.content{
+  text-align: left;
+  font-family:'Arial', Arial;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+.content1{
+  color: white;
+  text-align: right;
+  font-family:'Arial', Arial;
+}
+.content2{
+  color: white;
+  text-align: right;
+  font-family: 'Arial', Arial;
+}
+table{
+  border: ;
+  border-radius: ;
+  margin-right:
+  padding: ;
+  background-color: Black;
+  text-align: center
+}
+img{
+  float:left;
+  border: ;
+  border-radius: ;
+  margin-right: ;
+  padding-top: 10px;
+}
+img1{
+  float:left;
+
+}
+.index-table{
+  clear: both;
+  border: solid;
+  color: black;
+  border-radius: 10px;
+  font-family: 'Arial', Arial;
+}
+th, td{
+  color: white;
+  font-family: 'Arial', Arial;
+}
+form{
+  display: inline-block;
+}
+.content8{
+  float: center;
+  clear: both;
+  border: solid;
+  color: white;
+  text-align: center;
+  border-radius: 1px;
+  font-family: 'Arial', Arial;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.content6{
+  text-align: center;
+  border:
+  font-family: 'Arial', Arial;
+  padding-top: 25px;
+}
+.content0{
+  float: center;
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 75px;
+  font-family: 'Arial', 'Arial'
+}
+.content7{
+  float: center;
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 75px;
+  font-family: 'Arial, 'Arial'
+}
+/*
+ form{
+ display; inline-block;
+}
